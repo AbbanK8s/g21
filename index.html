@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garage21 | Elite Automotive Detailing & Protection</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Outfit:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Garage Door Opening Animation -->
+    <div class="garage-door-overlay" id="garageDoor">
+        <div class="garage-door-left">
+            <div class="door-panels"></div>
+        </div>
+        <div class="garage-door-right"></div>
+        <div class="garage-logo">
+            <h1>GARAGE<span>21</span></h1>
+            <p>Opening the Vault</p>
+        </div>
+        <div class="door-mechanism">
+            <div class="spring spring-left"></div>
+            <div class="spring spring-right"></div>
+        </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-wrap">
+        <div class="progress-bar"></div>
+    </div>
+
+    <!-- Background Elements -->
+    <div class="bg-lines"></div>
+
+    <!-- Navigation -->
+    <nav class="racing-nav" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand">GARAGE<span>21</span></a>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">The Vault</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#process" class="nav-link">Process</a></li>
+                <li><a href="#packages" class="nav-link">Track Packs</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-extra">
+                <a href="tel:+923044772655" class="nav-phone"><i class="fas fa-headset"></i> 0304-4772655</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-particles"></div>
+        <div class="container hero-content">
+            <div class="hero-left">
+                <div class="racing-badge">PREMIUM CAR CARE, REDEFINED</div>
+                <h1>UNLEASH THE <br>TRUE <span>SHINE</span></h1>
+                <p>At Garage21, we don't just wash cars—we transform them into masterpieces of protection and performance. Experience elite detailing that protects and elevates your vehicle.</p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn-morph">BOOK FREE CHECKUP</a>
+                    <a href="#services" class="btn-outline">EXPLORE SERVICES</a>
+                </div>
+                <div class="hero-features">
+                    <div class="feature-badge">
+                        <i class="fas fa-certificate"></i>
+                        <span>Certified Experts</span>
+                    </div>
+                    <div class="feature-badge">
+                        <i class="fas fa-clock"></i>
+                        <span>Same Day Service</span>
+                    </div>
+                    <div class="feature-badge">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Lifetime Warranty</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="stat-circle">
+                    <span class="count" data-target="4400">0</span>
+                    <span class="label">CARS RESTORED</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>DRIVE DOWN</span>
+            <div class="wheel-icon">
+                <i class="fas fa-dharmachakra"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Precision Stats -->
+    <section class="precision-stats">
+        <div class="container stats-grid">
+            <div class="stat-item">
+                <i class="fas fa-gauge-high"></i>
+                <h3><span class="counter" data-target="93">0</span>%</h3>
+                <p>SATISFACTION RATE</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-clock"></i>
+                <h3>24/7</h3>
+                <p>AVAILABILITY</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-shield-check"></i>
+                <h3>WARRANTY</h3>
+                <p>ON ALL COATINGS</p>
+            </div>
+            <div class="stat-item">
+                <i class="fas fa-trophy"></i>
+                <h3>TOP RATED</h3>
+                <p>SUPPORT TEAM</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About/Why Choose Section -->
+    <section id="about" class="why-choose">
+        <div class="container">
+            <div class="section-header">
+                <h2>WHY CHOOSE GARAGE21</h2>
+                <p>We combine precision and passion to deliver unmatched car protection</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-award"></i></div>
+                    <h3>Premium Products</h3>
+                    <p>We use only top-tier ceramic coatings, graphene technology, and professional-grade detailing products imported from leading manufacturers worldwide.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-user-tie"></i></div>
+                    <h3>Expert Technicians</h3>
+                    <p>Our certified detailing specialists have over 10+ years of combined experience in automotive paint correction and protection.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Advanced Equipment</h3>
+                    <p>State-of-the-art polishing machines, infrared curing lamps, and professional-grade extraction systems ensure perfect results every time.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-handshake"></i></div>
+                    <h3>Customer First</h3>
+                    <p>We provide transparent pricing, detailed consultations, and personalized service packages tailored to your vehicle's specific needs.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-leaf"></i></div>
+                    <h3>Eco-Friendly</h3>
+                    <p>Our waterless wash technology and biodegradable products protect your car while minimizing environmental impact.</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Mobile Service</h3>
+                    <p>Can't come to us? We bring the garage to you! Premium mobile detailing available for select packages in Lahore.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Vault - Expanded -->
+    <section id="services" class="services-vault">
+        <div class="container">
+            <div class="section-header">
+                <h2>THE DETAILING VAULT</h2>
+                <p>Expert-level protection and high-tech coatings designed to shield your car from everyday wear</p>
+            </div>
+            <div class="morph-grid">
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-shield-virus"></i></div>
+                    <h3>Ceramic Coating 9H</h3>
+                    <p>High-tech shield providing 9H hardness and a long-lasting showroom shine. Protects against UV rays, bird droppings, and minor scratches.</p>
+                    <span class="racing-tag">ELITE</span>
+                    <div class="service-duration">
+                        <i class="fas fa-clock"></i> 6-8 hours
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-gem"></i></div>
+                    <h3>Graphene Coating</h3>
+                    <p>Advanced heat resistance and superior hydrophobic properties for ultimate paint safety. Next-gen technology surpassing traditional ceramics.</p>
+                    <span class="racing-tag">NEW</span>
+                    <div class="service-duration">
+                        <i class="fas fa-clock"></i> 8-10 hours
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-layer-group"></i></div>
+                    <h3>PPF Film</h3>
+                    <p>Elite Paint Protection Film (PPF) by Garage21 to prevent scratches and rock chips. Self-healing technology for long-term protection.</p>
+                    <span class="racing-tag">ARMOR</span>
+                    <div class="service-duration">
+                        <i class="fas fa-clock"></i> 2-3 days
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-magic"></i></div>
+                    <h3>Compound Polish</h3>
+                    <p>Professional compounding and polishing techniques to remove oxidation, swirl marks, and restore clarity. Multi-stage paint correction.</p>
+                    <span class="racing-tag">RESTORE</span>
+                    <div class="service-duration">
+                        <i class="fas fa-clock"></i> 4-6 hours
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-soap"></i></div>
+                    <h3>Interior Detailing</h3>
+                    <p>Deep interior cleaning, door panel restoration, dashboard protection, and leather conditioning. Steam cleaning for sanitization.</p>
+                    <span class="racing-tag">DETAILED</span>
+                    <div class="service-duration">
+                        <i class="fas fa-clock"></i> 3-4 hours
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-engine"></i></div>
+                    <h3>Engine Bay Detail</h3>
+                    <p>Full degreasing and cleaning of the engine compartment for peak aesthetic performance. Safe for all electrical components.</p>
+                    <span class="racing-tag">TECH</span>
+                    <div class="service-duration">
+                        <i class="fas fa-clock"></i> 2-3 hours
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3>Headlight Restoration</h3>
+                    <p>Remove yellowing and oxidation from headlight lenses. Restore clarity and improve nighttime visibility with UV protection.</p>
+                    <span class="racing-tag">CLARITY</span>
+                    <div class="service-duration">
+                        <i class="fas fa-clock"></i> 1-2 hours
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-dharmachakra"></i></div>
+                    <h3>Wheel & Rim Detailing</h3>
+                    <p>Deep cleaning of wheels, tires, and brake calipers. Iron removal, tire dressing, and ceramic coating for wheels available.</p>
+                    <span class="racing-tag">PRECISION</span>
+                    <div class="service-duration">
+                        <i class="fas fa-clock"></i> 2-3 hours
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-car-side"></i></div>
+                    <h3>Undercarriage Cleaning</h3>
+                    <p>Thorough cleaning of the vehicle's underside to remove dirt, salt, and grime. Rust prevention treatment included.</p>
+                    <span class="racing-tag">PROTECT</span>
+                    <div class="service-duration">
+                        <i class="fas fa-clock"></i> 1-2 hours
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-wind"></i></div>
+                    <h3>Odor Elimination</h3>
+                    <p>Professional ozone treatment and deep cleaning to remove stubborn odors from smoke, pets, or mildew. Breathe fresh air again.</p>
+                    <span class="racing-tag">FRESH</span>
+                    <div class="service-duration">
+                        <i class="fas fa-clock"></i> 3-4 hours
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-couch"></i></div>
+                    <h3>Leather Conditioning</h3>
+                    <p>Premium leather cleaning and conditioning to prevent cracking and fading. UV protection for long-lasting luxury feel.</p>
+                    <span class="racing-tag">LUXURY</span>
+                    <div class="service-duration">
+                        <i class="fas fa-clock"></i> 2-3 hours
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="card-icon"><i class="fas fa-tint"></i></div>
+                    <h3>Window Tinting</h3>
+                    <p>Professional window film installation for heat rejection, UV protection, and privacy. Multiple shade options available.</p>
+                    <span class="racing-tag">COOL</span>
+                    <div class="service-duration">
+                        <i class="fas fa-clock"></i> 3-4 hours
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>OUR DETAILING PROCESS</h2>
+                <p>A systematic approach to automotive perfection</p>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Inspection & Consultation</h3>
+                        <p>We thoroughly inspect your vehicle's condition and discuss your specific needs and expectations. Free paint depth analysis included.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Pre-Wash & Decontamination</h3>
+                        <p>Two-bucket wash method, clay bar treatment, and iron remover application to ensure a perfectly clean surface before correction.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Paint Correction</h3>
+                        <p>Multi-stage polishing to remove swirl marks, scratches, and oxidation. We restore your paint to better-than-showroom condition.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Protection Application</h3>
+                        <p>Precise application of ceramic coating, graphene, or PPF with infrared curing for optimal bonding and longevity.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">05</div>
+                    <div class="step-content">
+                        <h3>Final Inspection & Delivery</h3>
+                        <p>Detailed quality check under specialized lighting. We provide maintenance instructions and warranty documentation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="packages-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>TRACK-READY PACKAGES</h2>
+                <p>Choose your level of defense with our signature car care bundles</p>
+            </div>
+            <div class="package-grid">
+                <div class="package-card">
+                    <div class="discount-tag animate-tag">20% OFF</div>
+                    <div class="package-badge">SUPER GLASS</div>
+                    <h4>SUPER GLASS COAT</h4>
+                    <div class="package-price">
+                        <span class="price-old">PKR 56,000</span>
+                        <span class="price-new">PKR 45,000</span>
+                    </div>
+                    <ul class="package-list">
+                        <li><i class="fas fa-check"></i> Complete Body Compounding</li>
+                        <li><i class="fas fa-check"></i> Engine Bay Detailing</li>
+                        <li><i class="fas fa-check"></i> Glass Coating Protection</li>
+                        <li><i class="fas fa-check"></i> Tire Cleaning & Dressing</li>
+                        <li><i class="fas fa-check"></i> Interior Vacuum</li>
+                        <li><i class="fas fa-check"></i> 6 Months Warranty</li>
+                    </ul>
+                    <a href="tel:03044772655" class="btn-package">
+                        <span>BOOK NOW</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="package-card featured">
+                    <div class="discount-tag animate-tag gold-tag">BEST VALUE</div>
+                    <div class="package-badge gold-badge">MOST POPULAR</div>
+                    <h4>GOLDEN PACKAGE</h4>
+                    <div class="package-price">
+                        <span class="price-old">PKR 43,000</span>
+                        <span class="price-new gold-price">PKR 35,000</span>
+                    </div>
+                    <ul class="package-list">
+                        <li><i class="fas fa-check"></i> Deep Interior Detailing</li>
+                        <li><i class="fas fa-check"></i> Door Panel Cleaning</li>
+                        <li><i class="fas fa-check"></i> Premium Shampoo Wash</li>
+                        <li><i class="fas fa-check"></i> Dashboard Protection</li>
+                        <li><i class="fas fa-check"></i> Leather Conditioning</li>
+                        <li><i class="fas fa-check"></i> 3 Months Warranty</li>
+                    </ul>
+                    <a href="tel:03044772655" class="btn-package gold">
+                        <span>BOOK NOW</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="package-card">
+                    <div class="discount-tag animate-tag blue-tag">POPULAR</div>
+                    <div class="package-badge blue-badge">CERAMIC PRO</div>
+                    <h4>CERAMIC PRO</h4>
+                    <div class="package-price">
+                        <span class="price-old">PKR 110,000</span>
+                        <span class="price-new">PKR 85,000</span>
+                    </div>
+                    <ul class="package-list">
+                        <li><i class="fas fa-check"></i> 9H Ceramic Coating</li>
+                        <li><i class="fas fa-check"></i> 2-Stage Paint Correction</li>
+                        <li><i class="fas fa-check"></i> Complete Interior Detail</li>
+                        <li><i class="fas fa-check"></i> Engine Bay Cleaning</li>
+                        <li><i class="fas fa-check"></i> Wheel Ceramic Coating</li>
+                        <li><i class="fas fa-check"></i> 3 Years Warranty</li>
+                    </ul>
+                    <a href="tel:03044772655" class="btn-package">
+                        <span>BOOK NOW</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>BEFORE & AFTER TRANSFORMATIONS</h2>
+                <p>See the Garage21 difference</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-car"></i>
+                        <span>Honda Civic - Ceramic Coating</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-car-side"></i>
+                        <span>Toyota Corolla - Paint Correction</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-truck-pickup"></i>
+                        <span>Land Cruiser - PPF Installation</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-car"></i>
+                        <span>Mercedes - Interior Detailing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews/Testimonials -->
+    <section id="reviews" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>CLIENT TESTIMONIALS</h2>
+                <p>What our customers say about us</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Recommended for best car detailing. The ceramic coating on my Civic looks incredible even after 6 months. Professional service from start to finish!"</p>
+                    <div class="client-info">
+                        <div class="client-avatar">SF</div>
+                        <div>
+                            <h4>Syed Faisal Mansoor</h4>
+                            <span class="service-tag">Ceramic Coating 9H</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Absolutely amazing work! They removed years of swirl marks from my black car. The paint correction service is worth every penny. Highly recommend Garage21!"</p>
+                    <div class="client-info">
+                        <div class="client-avatar">AK</div>
+                        <div>
+                            <h4>Ahmed Khan</h4>
+                            <span class="service-tag">Paint Correction</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Best interior detailing in Lahore! My car smelled brand new after their deep cleaning service. The team is professional, punctual, and reasonably priced."</p>
+                    <div class="client-info">
+                        <div class="client-avatar">MU</div>
+                        <div>
+                            <h4>Maria Usman</h4>
+                            <span class="service-tag">Interior Detailing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Got PPF installed on my new Land Cruiser. The installation was flawless with no bubbles or edges. Great investment for protecting my vehicle's paint!"</p>
+                    <div class="client-info">
+                        <div class="client-avatar">HI</div>
+                        <div>
+                            <h4>Hassan Iqbal</h4>
+                            <span class="service-tag">PPF Installation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Garage21 transformed my old Honda. The headlight restoration made a huge difference in visibility. Fair pricing and honest service - will definitely return!"</p>
+                    <div class="client-info">
+                        <div class="client-avatar">ZA</div>
+                        <div>
+                            <h4>Zainab Ali</h4>
+                            <span class="service-tag">Headlight Restoration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>FREQUENTLY ASKED QUESTIONS</h2>
+                <p>Everything you need to know about our services</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does ceramic coating last?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our premium 9H ceramic coating lasts 2-5 years depending on maintenance and driving conditions. We provide detailed care instructions and offer maintenance packages to extend longevity.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What's the difference between ceramic and graphene coating?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Graphene coating offers superior heat resistance, enhanced hydrophobic properties, and better flexibility compared to traditional ceramic. It's the latest advancement in paint protection technology.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer mobile detailing services?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We provide mobile detailing for select packages within Lahore. Contact us to check if your location is covered and to schedule an appointment.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How should I maintain my car after ceramic coating?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Wash regularly with pH-neutral shampoo, avoid automatic car washes, and use microfiber towels. We provide a complete maintenance guide and recommended products with every coating service.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can you remove scratches from my car?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our paint correction service can remove light to moderate scratches, swirl marks, and oxidation. Deep scratches that penetrate the clear coat may require touch-up paint or repainting.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What payment methods do you accept?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We accept cash, bank transfers, and all major debit/credit cards. For premium packages, we also offer flexible installment plans.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="contact-cta">
+                <h2>READY TO TRANSFORM YOUR VEHICLE?</h2>
+                <p>Book your free inspection today and experience the Garage21 difference</p>
+                <div class="cta-buttons">
+                    <a href="tel:+923044772655" class="btn-morph"><i class="fas fa-phone"></i> CALL NOW</a>
+                    <a href="https://wa.me/923044772655" class="btn-outline" target="_blank"><i class="fab fa-whatsapp"></i> WHATSAPP US</a>
+                </div>
+            </div>
+            
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <div class="brand">GARAGE<span>21</span></div>
+                    <p>We combine precision and passion to deliver unmatched car protection. Your vehicle deserves the best.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/923044772655" aria-label="WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>QUICK LINKS</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#packages">Packages</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>SERVICES</h4>
+                    <ul>
+                        <li><a href="#services">Ceramic Coating</a></li>
+                        <li><a href="#services">Paint Correction</a></li>
+                        <li><a href="#services">PPF Installation</a></li>
+                        <li><a href="#services">Interior Detailing</a></li>
+                        <li><a href="#services">Window Tinting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>CONTACT INFO</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Street Phase 1 Johar Town, Lahore</li>
+                        <li><i class="fas fa-phone"></i> +92 304 4772655</li>
+                        <li><i class="fas fa-envelope"></i> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7b0c1a081312151c161a15121a3b1c161a121755181416">[email&#160;protected]</a></li>
+                        <li><i class="fas fa-clock"></i> Mon-Sun: 9:00 AM - 9:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Garage21. All rights reserved. Designed with <i class="fas fa-heart"></i> for car enthusiasts.</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/923044772655" class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="
